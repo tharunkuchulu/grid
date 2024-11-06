@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Body from './components/Body';
+import { Box } from '@mui/material';
+import RadioGroupRating from './components/RadioGroupRating';
+import FullWidthTextField from './components/FullWidth';
+import Footer from './components/Footer';
+import DisableElevation from './components/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Header />
+      <Body />
+      <RadioGroupRating/>
+      <FullWidthTextField />
+      <DisableElevation/>
+      <Footer/>
+    </Box>
   );
 }
 
