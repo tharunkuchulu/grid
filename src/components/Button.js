@@ -7,7 +7,7 @@ export default function DisableElevation() {
     <ButtonGroup
       disableElevation
       aria-label="Disabled button group"
-      sx={{marginLeft:'44rem'}}
+      sx={{marginLeft:'44rem',position:"relative",top:"-290px",left:"200px"}}
       
     >
       <Button variant="contained">SAVE</Button>
