@@ -49,7 +49,7 @@ IconContainer.propTypes = {
 
 export default function RadioGroupRating() {
   return (
-    <Box sx={{marginLeft:'44rem', marginBottom:'20rem'}}>
+    <Box sx={{marginLeft:'44rem', marginBottom:'', position:'relative',top:'-280px'}}>
     <StyledRating
       name="highlight-selected-only"
       defaultValue={2}

@@ -5,7 +5,7 @@ function Header() {
   return (
     <AppBar sx={{alignItems: 'center'}} position="static">
       <Toolbar>
-        <Typography variant="h2">Rate Here</Typography>
+        <Typography variant="h2">RATE HERE</Typography>
       </Toolbar>
     </AppBar>
   );
